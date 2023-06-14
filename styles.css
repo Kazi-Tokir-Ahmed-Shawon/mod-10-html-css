@@ -1,0 +1,202 @@
+/* CSS styling for Part 2 */
+
+
+
+ /* CSS styling for centering the page */
+ html, body {
+  height: 100%;
+  margin: 0;
+}
+/* Custom font for all text on the page */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+  
+  /* Styling for the heading */
+  h1 {
+    color: rgb(199, 199, 242);
+    font-size: 24px;
+    text-align: center;
+  }
+ 
+  
+  /* Background color for the container div */
+  .container {
+    background-color: lightgray;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  /* Background color, border, and hover effect for the table */
+  table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  table tr:hover {
+    background-color: lightblue;
+  }
+  
+  /* Different style for the first list item */
+  ul li:first-child {
+    font-weight: bold;
+  }
+  
+  /* Specific width and height for the image */
+  img {
+    width: 200px;
+    height: 150px;
+  }
+  
+  /* Styling table cells based on their position */
+  table tbody tr:first-child td {
+    background-color: yellow;
+  }
+  
+  table tbody tr:last-child td {
+    background-color: pink;
+  }
+  
+  /* Background color for the table header row */
+  table thead th {
+    background-color: gray;
+  }
+  
+  /* CSS styling for Part 3 */
+  :root {
+    --primary-color: blue;
+    --secondary-color: red;
+    --font-size: 16px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: var(--primary-color);
+    font-size: var(--font-size);
+  }
+  
+  h1 {
+    color: var(--secondary-color);
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: lightgray;
+    width: 500px;
+    height: 300px;
+  }
+  
+  table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  table tr:hover {
+    background-color: lightblue;
+  }
+  
+  ul li:first-child {
+    font-weight: bold;
+  }
+  
+  img {
+    width: 200px;
+    height: 150px;
+  }
+  
+  table tbody tr:first-child td {
+    background-color: yellow;
+  }
+  
+  table tbody tr:last-child td {
+    background-color: pink;
+  }
+  
+  table thead th {
+    background-color: gray;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+ul {
+  text-align: left;
+  direction: ltr;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+}
+
+table {
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table td,
+table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table tr:hover {
+  background-color: lightblue;
+}
+
+/* Different style for the first list item */
+ul li:first-child {
+  font-weight: bold;
+}
+
+/* Styling table cells based on their position */
+table tbody tr:first-child td {
+  background-color: yellow;
+}
+
+table tbody tr:last-child td {
+  background-color: pink;
+}
+
+/* Background color for the table header row */
+table thead th {
+  background-color: gray;
+}
